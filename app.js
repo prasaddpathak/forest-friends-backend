@@ -3,6 +3,7 @@ const session = require('express-session');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const nftController = require('./js/nft');
+const uniqueController = require('./js/unique');
 
 
 const app = express();

@@ -1,20 +1,14 @@
 const { query } = require('express');
-const mysql = require('mysql')
-
-// var connection = mysql.createConnection({
-//     host     : '127.0.0.1',
-//     user     : 'root',
-//     password : 'admin',
-//     database : 'forest_friends'
-//   });
+const mysql = require('mysql');
+const dotenv = require('dotenv');
 
 var connection = mysql.createConnection({
-    host     : 'forest-friends.c9akkixatecs.us-east-1.rds.amazonaws.com',
-    user     : 'forest_friends',
-    password : 'Northeastern987',
+    host     : '127.0.0.1',
+    user     : 'root',
+    password : 'admin',
     database : 'forest_friends'
   });
-
+  
 /* 
   API Name :      listAll
   API Type :      GET
