@@ -8,7 +8,7 @@ const nftController = require('./js/nft');
 const app = express();
 
 app.set('host', '127.0.0.1');
-app.set('port', 8081);
+app.set('port', 80);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
